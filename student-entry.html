@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Add Student</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="dashboard">
+
+  <div class="sidebar">
+    <h2>🚀 RankSys</h2>
+    <button onclick="location.href='index.html'">🏠 Home</button>
+    <button class="active">🧑‍🎓 Add Student</button>
+    <button onclick="location.href='ranking.html'">🏆 Ranking</button>
+  </div>
+
+  <div class="main">
+    <div class="panel">
+
+      <h2>Add Student</h2>
+      <p id="typeInfo"></p>
+
+      <input type="text" id="name" placeholder="Name">
+      <input type="text" id="reg" placeholder="Register Number">
+      <input type="number" id="marks">
+
+      <button class="primary-btn" onclick="addStudent()">Add Student</button>
+      <button class="primary-btn" onclick="generateRanking()">Generate Ranking</button>
+
+    </div>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
